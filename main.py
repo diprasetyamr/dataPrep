@@ -18,11 +18,6 @@ if not os.path.exists(datafolder):
     os.makedirs(datafolder)
 
 
-def calcWatt(WHC, WHN, timeDif):
-    result = 0
-    return ((WHN-WHC)/(timeDif/3600))
-
-
 class dataBase:
     id_measurement = 0
     wht = 0
@@ -90,6 +85,10 @@ with open(filenames, encoding='utf-8') as csvfile:
 
         else:
             measurement = int(row['Id_Lectura'])
+
+
+# Check the data
+
 
 
 for x in range(0, len(data_list)):
