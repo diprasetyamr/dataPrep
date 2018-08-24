@@ -9,4 +9,4 @@ The csv file is generated from dumping the sql table.
 
 **Current Development**
 
-1. Reconstruct the program, so the can be treat as a general data preparation program for STLF. Since now, the program only works with the provided csv file.
+1. Reconstruct the program, so then the program can be treated as a general data preparation for STLF. Since now, the program only works with the provided csv file.
