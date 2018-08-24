@@ -51,7 +51,7 @@ with open(measurmentdatafile, encoding='utf-8') as csvfile:
             data_list[x][1].append(
                 dataBase(row['Id_Lectura'], row['W_hours_Total'], row['Fecha_Hora']))
 
-# Node Data
+# Node name Data
 with open(nodedatafile, encoding='utf-8') as csvfile:
     reader = csv.DictReader(csvfile)
     for row in reader:
